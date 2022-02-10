@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('testing pod yaml in resources directory of shared lib') {
             steps {
-                sh 'mvn --verion'
+                sh 'mvn --version'
             }
         }
     }
