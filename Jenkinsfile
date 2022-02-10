@@ -2,7 +2,7 @@
 pipeline {
     agent {
         kubernetes {
-            libraryResource('podYaml.yaml')
+            podYaml()
             defaultContainer 'build'
         }    
     }
